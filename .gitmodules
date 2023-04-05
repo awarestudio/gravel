@@ -1,0 +1,3 @@
+[submodule "p5"]
+	path = lib/p5
+	url = https://github.com/awarestudio/p5
