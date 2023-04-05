@@ -1,3 +1,9 @@
 [submodule "p5"]
 	path = lib/p5
 	url = https://github.com/awarestudio/p5
+[submodule "utils"]
+	path = utils
+	url = https://github.com/awarestudio/utils
+[submodule "pattern2D"]
+	path = pattern2D
+	url = https://github.com/awarestudio/pattern2D
