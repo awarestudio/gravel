@@ -1,14 +1,14 @@
 // General Settings
 const CANVAS = {
     WIDTH : 600,
-    HEIGHT: 848.53,
+    HEIGHT: 1000,
     BACKGROUND_COLOR : 'white'
 }
 
 CANVAS.MARGINS_RATIO = {
-    LEFT : 0.1,
-    RIGHT : 0.1,
-    TOP : 0.075,
+    LEFT : 0.075,
+    RIGHT : 0.075,
+    TOP : 0.01,
     BOTTOM : 0
 }
 
@@ -30,7 +30,10 @@ const BACKGROUND_COLOR = "white"
 const DEBUG_COLOR = "magenta"
 
 // Project Settings
-N_SQUARES_H = 13
-N_SQUARES_V = 19
+const N_SQUARES_H = 12
+const N_SQUARES_V = 22
 
-SQUARE_SIZE = (CANVAS.WIDTH - CANVAS.MARGINS.LEFT - CANVAS.MARGINS.RIGHT)/N_SQUARES_H
+const SQUARE_SIZE = (CANVAS.WIDTH - CANVAS.MARGINS.LEFT - CANVAS.MARGINS.RIGHT)/N_SQUARES_H
+
+const MAX_ROTATION = 45
+const MAX_TRANSLATION = SQUARE_SIZE * 0.75
